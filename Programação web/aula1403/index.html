@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--        CSS     -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slide.css" />
+
+    <!--        ICONS        -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--        FONTS GOOGLE        -->
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!--        IMAGE TAB       -->
+    <link rel="shortcut icon" href="womanlogo.png" type="image/x-icon" />
+    <title>AULA PRÉ PROVA</title>
+  </head>
+  <body>
+    <header>
+      <div class="container" id="header">
+        <div id="header-brand">
+          <a href="#"><img src="womanlogo.png" alt="logo" /></a>
+        </div>
+
+        <nav>
+          <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#company">Empresa</a></li>
+            <li><a href="#services">Servicos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+
+        <nav>
+          <ul class="navbar">
+            <li>
+              <a href="https://www.instagram.com/llaysxavier/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li>
+              <a href="https://github.com/llaysxavier" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <!--Start slide-->
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="slide01.jpg" style="width: 100%" />
+          <div class="text">Foto 1</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="slide02.jpg" style="width: 100%" />
+          <div class="text">Foto 2</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="slide" style="width: 100%" />
+          <div class="text">Foto 3</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+      <!--End slide-->
+    </section>
+    <section>
+      <!--Start about-->
+      <div class="container" id="about">
+        <img src="./images/img4.jpg" alt="" id="about-image" />
+        <div id="about-description">
+          <h1>A EMPRESA</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In a animi
+            doloribus veritatis quod officiis. Commodi cupiditate totam officiis
+            unde, sint omnis ex doloribus similique iusto quam ut officia
+            adipisci.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In a animi
+            doloribus veritatis quod officiis. Commodi cupiditate totam officiis
+            unde, sint omnis ex doloribus similique iusto quam ut officia
+            adipisci.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In a animi
+            doloribus veritatis quod officiis. Commodi cupiditate totam officiis
+            unde, sint omnis ex doloribus similique iusto quam ut officia
+            adipisci.
+          </p>
+        </div>
+      </div>
+      <!--End about-->
+    </section>
+    <section>
+      <!--Start contact-->
+      <div class="container" id="contact">
+        <div id="contact-youtube">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/_nOeh677C8U"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="contact" id="form">
+          <h1>Contato</h1>
+          <p>Preencha o formulário abaixo:</p>
+          <form action="">
+            <div>
+              <label for="">Digite o seu nome: </label>
+              <input type="text" />
+            </div>
+            <div>
+              <label for="">Digite o seu email: </label>
+              <input type="email" />
+            </div>
+            <div>
+              <input type="submit" value="ENVIAR MENSAGEM" />
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--End contact-->
+    </section>
+    <section>
+      <!--START MAPS-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2749.7632322633713!2d-38.390142601819186!3d-12.923625406746515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617398522b159%3A0x721c372aad87fe05!2sParque%20Tecnol%C3%B3gico%20da%20Bahia%20-%20R.%20Mundo%2C%20121%20-%20Trobogy%2C%20Salvador%20-%20BA%2C%2041301-110!5e0!3m2!1spt-BR!2sbr!4v1678836355173!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!--END MAPS-->
+    </section>
+
+    <footer>
+      <div class="container" id="footer">
+        <p>Todos os direitos reservados</p>
+      </div>
+    </footer>
+    <!--SCRIPT-->
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+  </body>
+</html>
